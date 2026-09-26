@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
             />
           </div>
           <span className="font-extrabold text-lg tracking-wider text-white font-display">
-            FIT<span className="text-[#ccff00]">LOG</span>
+            FIT<span className="text-[#ccff00]">Log</span>
           </span>
         </div>
 

@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
 
             {/* Subtitle */}
             <p className="text-zinc-400 text-base sm:text-lg max-w-2xl leading-relaxed">
-              FitLog is a dark, no-nonsense gym companion: pick a lift, lock it into today&apos;s plan, and watch the week&apos;s work add up.
+              FitLog is a dark themed gym companion: pick a lift, lock it into today&apos;s plan, and watch the week&apos;s work add up.
             </p>
 
             {/* Primary CTA Button */}

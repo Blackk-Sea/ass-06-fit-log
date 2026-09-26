@@ -9,16 +9,16 @@ export default function NotFound() {
         <div className="w-24 h-24 rounded-3xl bg-zinc-900 border border-zinc-800 flex items-center justify-center text-[#ccff00] shadow-2xl">
           <Dumbbell className="w-12 h-12" />
         </div>
-        <div className="absolute -bottom-2 -right-2 bg-red-500/20 text-red-400 text-xs font-black uppercase px-2 py-0.5 rounded-md border border-red-500/40">
-          404 ERROR
-        </div>
+        
       </div>
+
+      <h3 className="text-xl sm:text-2xl font-black text-white font-display tracking-tight">Error 404 !</h3> <br/>
 
       <h1 className="text-4xl sm:text-6xl font-black uppercase text-white font-display tracking-tight">
         PAGE NOT FOUND
       </h1>
       <p className="text-zinc-400 text-sm sm:text-base max-w-md mt-3 mb-8">
-        Looks like you took a wrong rep. The page you are looking for doesn&apos;t exist or has been moved.
+        Fuck ! You have entered the wrong door. Go Back.
       </p>
 
       <Link

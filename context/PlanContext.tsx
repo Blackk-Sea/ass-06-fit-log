@@ -115,7 +115,7 @@ export const PlanProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
 
     setTodayPlan((prev) => [...prev, newItem]);
-    const msg = `Added "${workout.name}" to Today's Plan! 💪`;
+    const msg = `Added "${workout.name}" to Today's Plan! `;
     addToast(msg, "success");
     return { success: true, message: msg };
   };
@@ -135,7 +135,7 @@ export const PlanProvider: React.FC<{ children: React.ReactNode }> = ({ children
           const nextState = !item.isDone;
           addToast(
             nextState
-              ? `Great work! Marked "${item.name}" as completed. 🔥`
+              ? `Great work! Marked "${item.name}" as completed. `
               : `Unmarked "${item.name}".`,
             nextState ? "success" : "info"
           );
@@ -159,7 +159,7 @@ export const PlanProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
 
     setSavedWorkouts((prev) => [...prev, newItem]);
-    const msg = `Saved "${workout.name}" for later! 📌`;
+    const msg = `Saved "${workout.name}" for later! `;
     addToast(msg, "success");
     return { success: true, message: msg };
   };
